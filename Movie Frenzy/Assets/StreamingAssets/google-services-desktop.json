@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "583917826000",
+    "project_id": "flick-frenzy-fbea8",
+    "storage_bucket": "flick-frenzy-fbea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583917826000:ios:dbf1b7c511abc2499f53d5",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.com.unity.template.mobile2D"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBXN36iU4_yQFkmiGsxB9Peopf-R8PU04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
