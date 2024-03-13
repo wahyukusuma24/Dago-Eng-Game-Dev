@@ -1,28 +1,43 @@
 {
   "project_info": {
-    "project_number": "583917826000",
-    "project_id": "flick-frenzy-fbea8",
-    "storage_bucket": "flick-frenzy-fbea8.appspot.com"
+    "project_number": "586578358513",
+    "project_id": "movie-frenzy-fd185",
+    "storage_bucket": "movie-frenzy-fd185.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:583917826000:ios:dbf1b7c511abc2499f53d5",
+        "mobilesdk_app_id": "1:586578358513:android:d7b82131dfe99462e17950",
         "android_client_info": {
           "package_name": "com.DefaultCompany.com.unity.template.mobile2D"
         }
       },
+      "oauth_client": [
+        {
+          "client_id": "586578358513-gr558bpjiolcaqfs46f3adjtiou3mnct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBBXN36iU4_yQFkmiGsxB9Peopf-R8PU04"
+          "current_key": "AIzaSyDdyh1frGRRMNf1F0vA_cKSoKSm1Io7ILY"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 0
-        },
         "appinvite_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586578358513-gr558bpjiolcaqfs46f3adjtiou3mnct.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "586578358513-12uis2oeudb8g65ttn573ug2evuur8ss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.com.unity.template.mobile2D"
+              }
+            }
+          ]
         }
       }
     }

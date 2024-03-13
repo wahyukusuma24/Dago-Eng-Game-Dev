@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
-  <string name="gcm_defaultSenderId" translatable="false">583917826000</string>
-  <string name="google_storage_bucket" translatable="false">flick-frenzy-fbea8.appspot.com</string>
-  <string name="project_id" translatable="false">flick-frenzy-fbea8</string>
-  <string name="google_api_key" translatable="false">AIzaSyC2LfTcT34gkAbCOYnxZfexsp7k05efRwQ</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC2LfTcT34gkAbCOYnxZfexsp7k05efRwQ</string>
-  <string name="google_app_id" translatable="false">1:583917826000:android:5e7c11d30ed898b59f53d5</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">586578358513</string>
+  <string name="google_storage_bucket" translatable="false">movie-frenzy-fd185.appspot.com</string>
+  <string name="project_id" translatable="false">movie-frenzy-fd185</string>
+  <string name="google_api_key" translatable="false">AIzaSyDdyh1frGRRMNf1F0vA_cKSoKSm1Io7ILY</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDdyh1frGRRMNf1F0vA_cKSoKSm1Io7ILY</string>
+  <string name="google_app_id" translatable="false">1:586578358513:android:d7b82131dfe99462e17950</string>
+  <string name="default_web_client_id" translatable="false">586578358513-gr558bpjiolcaqfs46f3adjtiou3mnct.apps.googleusercontent.com</string>
 </resources>

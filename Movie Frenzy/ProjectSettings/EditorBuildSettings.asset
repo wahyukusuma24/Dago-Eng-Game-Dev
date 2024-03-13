@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Home Screen.unity
+    path: Assets/Scenes/LandingPage.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
     guid: 193713c2df34db94680a44d8ac5c9484
+  - enabled: 1
+    path: Assets/Scenes/CountDownTimer.unity
+    guid: 58f66934457a67842ad5b51d54fee4ae
+  - enabled: 1
+    path: Assets/Scenes/ActionPage.unity
+    guid: 01d394e7cd595334890ebf9b6e06d6d0
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 4cf058d2b36eb9747a2e495b0b327e0b, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f815c616eb3087f49b402395dfeb672b, type: 2}

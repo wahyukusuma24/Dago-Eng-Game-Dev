@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>586578358513-12uis2oeudb8g65ttn573ug2evuur8ss.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.586578358513-12uis2oeudb8g65ttn573ug2evuur8ss</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBBXN36iU4_yQFkmiGsxB9Peopf-R8PU04</string>
+	<string>AIzaSyCl5De4eJ8Rceo9qWVGpyheMb_dzIwECuo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>583917826000</string>
+	<string>586578358513</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.DefaultCompany.com.unity.template.mobile2D</string>
 	<key>PROJECT_ID</key>
-	<string>flick-frenzy-fbea8</string>
+	<string>movie-frenzy-fd185</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flick-frenzy-fbea8.appspot.com</string>
+	<string>movie-frenzy-fd185.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:583917826000:ios:dbf1b7c511abc2499f53d5</string>
+	<string>1:586578358513:ios:a25eda97ecf4a3eae17950</string>
 </dict>
 </plist>
