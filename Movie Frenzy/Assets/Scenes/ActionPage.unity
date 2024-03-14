@@ -2126,8 +2126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107fe167a8088fb45be825b77ac3b99d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageDisplay: {fileID: 1633731331}
-  firebaseStoragePath: gs://movie-frenzy-fd185.appspot.com/Napoleon-6.gif
+  gifDisplay: {fileID: 1633731331}
+  firebaseStoragePath: gs://movie-frenzy-fd185.appspot.com/Napoleon-3.gif
 --- !u!1 &1938427169
 GameObject:
   m_ObjectHideFlags: 0
