@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ActionPage.unity
     guid: 01d394e7cd595334890ebf9b6e06d6d0
+  - enabled: 1
+    path: Assets/Scenes/ScorePage.unity
+    guid: efaa4c08355384d4896a97e406ba47a4
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 4cf058d2b36eb9747a2e495b0b327e0b, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f815c616eb3087f49b402395dfeb672b, type: 2}

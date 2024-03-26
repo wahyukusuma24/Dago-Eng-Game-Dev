@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -8,9 +6,8 @@ using UnityEngine.UI;
 public class AnswerButtonHandler : MonoBehaviour
 {
     public string CorrectAnswer { get; set; }
-
     public QuestionLoader questionLoader;
-
+    public LifeManager lifeManager;
     private TMP_Text buttonText;
     private Image buttonImage;
     private bool answerSelected = false;
@@ -48,11 +45,11 @@ public class AnswerButtonHandler : MonoBehaviour
                 Debug.Log("Wrong Answer!");
                 buttonImage.color = Color.red;
                 buttonText.color = Color.white;
+                lifeManager.LoseLife();            
             }
 
             DisableOtherButtonAnswer();
             questionLoader.CallIncrementAnsweredQuestions();
-
             StartCoroutine(ResetAllButtonAndLoadNextQuestion());
         }
     }

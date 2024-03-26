@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 43278024}
-  - component: {fileID: 43278023}
   m_Layer: 0
   m_Name: 'LandingPage '
   m_TagString: Untagged
@@ -140,18 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &43278023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43278022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3e98e78f7964a6429ab3154579fb79d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &43278024
 Transform:
   m_ObjectHideFlags: 0
@@ -579,6 +566,7 @@ GameObject:
   - component: {fileID: 1494544857}
   - component: {fileID: 1494544856}
   - component: {fileID: 1494544855}
+  - component: {fileID: 1494544858}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -650,9 +638,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 43278023}
-        m_TargetAssemblyTypeName: LandingPage, Assembly-CSharp
-        m_MethodName: Play
+      - m_Target: {fileID: 1494544858}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -700,6 +688,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494544853}
   m_CullTransparentMesh: 1
+--- !u!114 &1494544858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494544853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e98e78f7964a6429ab3154579fb79d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: MainMenu
 --- !u!1 &1963752753
 GameObject:
   m_ObjectHideFlags: 0

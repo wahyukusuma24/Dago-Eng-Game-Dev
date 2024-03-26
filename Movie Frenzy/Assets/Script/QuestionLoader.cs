@@ -24,6 +24,7 @@ public class QuestionLoader : MonoBehaviour
     public AnswerButtonHandler optionCButtonHandler;
     public AnswerButtonHandler optionDButtonHandler;
     public AnswerCounter answerCounter;
+    public TimeManager timeManager;
 
     private FirebaseFirestore db;
     private IDictionary<string, object> cachedData;
@@ -125,6 +126,11 @@ public class QuestionLoader : MonoBehaviour
                 // Anda bisa menangani teks pertanyaan di sini jika perlu
             }
         }
+
+        if (timeManager != null)
+        {
+            timeManager.StartTimer();
+        }
     }
 
     private IEnumerator LoadVideo(string url)
@@ -179,7 +185,6 @@ public class QuestionLoader : MonoBehaviour
 
     public void CallIncrementAnsweredQuestions()
     {
-        // Memanggil IncrementAnsweredQuestions dari AnswerCounter
         answerCounter.IncrementAnsweredQuestions();
     }
 }

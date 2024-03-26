@@ -21,6 +21,6 @@ public class AnswerCounter : MonoBehaviour
 
     private void UpdateCounterText()
     {
-        counterText.text = "Answered Question: " + totalAnsweredQuestion.ToString();
+        counterText.text = totalAnsweredQuestion.ToString();
     }
 }
